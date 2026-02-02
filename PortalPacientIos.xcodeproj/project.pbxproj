@@ -6,13 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F973BAF2F30979C0073709B /* Resurse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F973BAE2F30979C0073709B /* Resurse.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		4F973BAE2F30979C0073709B /* Resurse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resurse.swift; sourceTree = "<group>"; };
 		4FF03C4D2F220F4800E257A1 /* PortalPacientIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortalPacientIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4FF03C5F2F2218FF00E257A1 /* Exceptions for "PortalPacientIos" folder in "PortalPacientIos" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				Resurse.swift,
+			);
+			target = 4FF03C4C2F220F4800E257A1 /* PortalPacientIos */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4FF03C4F2F220F4800E257A1 /* PortalPacientIos */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FF03C5F2F2218FF00E257A1 /* Exceptions for "PortalPacientIos" folder in "PortalPacientIos" target */,
+			);
 			path = PortalPacientIos;
 			sourceTree = "<group>";
 		};
@@ -32,6 +51,7 @@
 		4FF03C442F220F4800E257A1 = {
 			isa = PBXGroup;
 			children = (
+				4F973BAE2F30979C0073709B /* Resurse.swift */,
 				4FF03C4F2F220F4800E257A1 /* PortalPacientIos */,
 				4FF03C4E2F220F4800E257A1 /* Products */,
 			);
@@ -119,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F973BAF2F30979C0073709B /* Resurse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +272,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y25HNQK5RB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PortalPacientIos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,8 +305,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y25HNQK5RB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PortalPacientIos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
